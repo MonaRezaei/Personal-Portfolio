@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  height: 100%;
+  direction: ltr;
+}
+
+body {
+  font-family: "Space Grotesk ", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.bg-img {
+  background-image: url("../src/assets/bg-img5.png");
+}
